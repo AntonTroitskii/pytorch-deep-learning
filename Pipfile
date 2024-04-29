@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "*"
 ipykernel = "*"
+torch = "==2.2.2"
 matplotlib = "*"
 scikit-learn = "*"
 pandas = "*"
@@ -21,5 +21,5 @@ dill = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.9"
-python_full_version = "3.9.4"
+python_version = "3.10"
+python_full_version = "3.10.5"
